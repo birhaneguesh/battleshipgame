@@ -1,0 +1,87 @@
+/* 	
+This is an example CSS file, which we used to implement the sample solution.
+You are free to update this CSS file in any way to fit your solution.
+*/
+html, body {
+	width: 100%;
+	padding: 10px;
+	margin: 0;
+	background-color: #fff;
+	min-width: 860px;
+}
+div {
+	padding: 10;
+	margin: 0;
+}
+
+#ship-options {
+	margin-left: 25px;
+    position: relative;
+   
+}
+
+.formclass {
+    position: relative;
+}
+.buttonclass{
+    position: relative;
+}
+#div_table_board{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+#p_bombs{
+    margin-left: 10px;
+}
+.button {
+    position: relative;
+    padding: 10px 30px;
+    margin: 0px 10px 10px 0px;
+    float:left;
+    border-radius: 10px;
+    font-family: 'Helvetica', cursive;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;  
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    
+}
+
+.button:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button:active {   
+    border-bottom: 2px solid;
+    background-color: #1078FF;
+}
+
+/* style for each div as grid cell */
+.grid-cell {
+		vertical-align: top; 
+		height: 50px;
+		width: 50px;
+		display: inline-block;
+		background-color:#EBF4FA;
+		margin: 1px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+	}
+/* color style for the missed cell */
+.grid-miss{
+    background-color: darkblue;
+}
+/* color style for the destroyed cell */
+.grid-hit{
+    background-color: black;
+}
+/* color style for the hover on the cell */
+.grid-hover:hover {
+			background-color:red;
+		}
